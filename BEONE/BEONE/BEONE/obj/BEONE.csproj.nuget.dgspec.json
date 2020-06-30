@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {}
+    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {}
   },
   "projects": {
-    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "projectUniqueName": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
         "projectName": "BEONE",
-        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
+        "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
+        "outputPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -46,25 +47,11 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Rg.Plugins.Popup": {
-              "target": "Package",
-              "version": "[2.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
