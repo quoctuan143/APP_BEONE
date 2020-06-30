@@ -1,0 +1,16 @@
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\bin\Debug\netstandard2.0\BEONE.deps.json
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\bin\Debug\netstandard2.0\BEONE.dll
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\bin\Debug\netstandard2.0\ref\BEONE.dll
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\bin\Debug\netstandard2.0\BEONE.pdb
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.csprojAssemblyReference.cache
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.AssemblyInfoInputs.cache
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.AssemblyInfo.cs
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.dll
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\ref\BEONE.dll
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.pdb

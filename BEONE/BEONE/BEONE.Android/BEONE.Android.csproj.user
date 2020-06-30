@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>OPPO CPH1937</SelectedDevice>
     <DefaultDevice>pixel_2_pie_9_0_-_api_29</DefaultDevice>
+    <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

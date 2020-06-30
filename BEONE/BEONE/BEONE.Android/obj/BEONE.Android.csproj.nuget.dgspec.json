@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {}
+    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {}
   },
   "projects": {
-    "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {
+    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
+        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
         "projectName": "BEONE.Android",
-        "projectPath": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
+        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE.Android\\obj\\",
+        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
-                "projectPath": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj"
+              "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+                "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj"
               }
             }
           }
@@ -42,26 +42,38 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.3.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.495, )"
+              "version": "[4.7.0.968, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           }
         }
       }
     },
-    "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
         "projectName": "BEONE",
-        "projectPath": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\GITHUB\\BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
+        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -92,19 +104,31 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.3.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.495, )"
+              "version": "[4.7.0.968, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [

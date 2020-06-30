@@ -6,6 +6,9 @@
        mc:Ignorable="d"
        xmlns:local="clr-namespace:BEONE.Views"
        Title="BEONE"
+       BackgroundColor="#007262"
+       FlyoutBackgroundImage="flybackroud.png"
+       FlyoutBackgroundImageAspect="AspectFill"
        x:Class="BEONE.AppShell">
 
     <!-- 
@@ -30,43 +33,19 @@
     </Shell.Resources>
 
     <!-- Your Pages -->
-    <TabBar>
-        <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
-        </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
-    </TabBar>
+    <FlyoutItem Title="GCS" 
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems"
+                FlyoutIcon="ic_back.png"
+                >
+        <ShellContent Title="Ghi Chỉ Số" IsTabStop="True" Icon="ic_back.png" ContentTemplate="{DataTemplate local:AboutPage }">
 
-    <!-- Optional Templates 
-    // These may be provided inline as below or as separate classes.
+        </ShellContent>
+        <ShellContent Title="Setting" Icon="ic_setting.png" IsTabStop="True" ContentTemplate="{DataTemplate local:ItemsPage }">
 
-    // This header appears at the top of the Flyout.
-    <Shell.FlyoutHeaderTemplate>
-        <DataTemplate>
-            <Grid>ContentHere</Grid>
-        </DataTemplate>
-    </Shell.FlyoutHeaderTemplate>
+        </ShellContent>
 
-    // ItemTemplate is for ShellItems as displayed in a Flyout
-    <Shell.ItemTemplate>
-        <DataTemplate>
-            <ContentView>
-                Bindable Properties: Title, Icon
-            </ContentView>
-        </DataTemplate>
-    </Shell.ItemTemplate>
+    </FlyoutItem>
 
-    // MenuItemTemplate is for MenuItems as displayed in a Flyout
-    <Shell.MenuItemTemplate>
-        <DataTemplate>
-            <ContentView>
-                Bindable Properties: Text, Icon
-            </ContentView>
-        </DataTemplate>
-    </Shell.MenuItemTemplate>
-
-    -->
-
+   
 </Shell>
