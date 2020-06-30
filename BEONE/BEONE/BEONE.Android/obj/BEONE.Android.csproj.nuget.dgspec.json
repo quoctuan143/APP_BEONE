@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {}
+    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {}
   },
   "projects": {
-    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {
+    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
+        "projectUniqueName": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
         "projectName": "BEONE.Android",
-        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\obj\\",
+        "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\BEONE.Android.csproj",
+        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
+        "outputPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
-                "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj"
+              "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+                "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj"
               }
             }
           }
@@ -46,19 +46,13 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[5.2.7, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Rg.Plugins.Popup": {
-              "target": "Package",
-              "version": "[2.0.0.3, )"
+              "version": "[1.5.3.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -68,6 +62,14 @@
               "target": "Package",
               "version": "[4.7.0.968, )"
             },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.968, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.7.335, )"
@@ -76,20 +78,21 @@
         }
       }
     },
-    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "projectUniqueName": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
         "projectName": "BEONE",
-        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
+        "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
+        "outputPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -118,25 +121,11 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Rg.Plugins.Popup": {
-              "target": "Package",
-              "version": "[2.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
