@@ -14,3 +14,5 @@ E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\bin\Debug\netstandard2.0\BEONE.pdb
 E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.dll
 E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\ref\BEONE.dll
 E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.pdb
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\BEONE.csproj.CoreCompileInputs.cache
+E:\GITHUB\BEONE\APP_BEONE\BEONE\BEONE\BEONE\obj\Debug\netstandard2.0\XamlC.stamp

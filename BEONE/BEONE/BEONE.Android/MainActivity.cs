@@ -18,7 +18,8 @@ namespace BEONE.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
+            this.Window.AddFlags(WindowManagerFlags.Fullscreen);
+            this.Window.ClearFlags(WindowManagerFlags.Fullscreen);
             global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

@@ -25,10 +25,22 @@ public final class R {
     public static final int design_bottom_sheet_slide_out=0x7f01000d;
     public static final int design_snackbar_in=0x7f01000e;
     public static final int design_snackbar_out=0x7f01000f;
-    public static final int enterfromleft=0x7f010010;
-    public static final int enterfromright=0x7f010011;
-    public static final int exittoleft=0x7f010012;
-    public static final int exittoright=0x7f010013;
+    public static final int enter_bottom=0x7f010010;
+    public static final int enter_left=0x7f010011;
+    public static final int enter_right=0x7f010012;
+    public static final int enter_top=0x7f010013;
+    public static final int enterfromleft=0x7f010014;
+    public static final int enterfromright=0x7f010015;
+    public static final int exit_bottom=0x7f010016;
+    public static final int exit_left=0x7f010017;
+    public static final int exit_right=0x7f010018;
+    public static final int exit_top=0x7f010019;
+    public static final int exittoleft=0x7f01001a;
+    public static final int exittoright=0x7f01001b;
+    public static final int fade_in=0x7f01001c;
+    public static final int fade_out=0x7f01001d;
+    public static final int flip_in=0x7f01001e;
+    public static final int flip_out=0x7f01001f;
   }
   public static final class animator {
     public static final int design_appbar_state_list_animator=0x7f020000;
@@ -4944,14 +4956,15 @@ public final class R {
     public static final int fab_transformation_scrim_behavior=0x7f0d002b;
     public static final int fab_transformation_sheet_behavior=0x7f0d002c;
     public static final int hide_bottom_view_on_scroll_behavior=0x7f0d002d;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0d002e;
-    public static final int password_toggle_content_description=0x7f0d002f;
-    public static final int path_password_eye=0x7f0d0030;
-    public static final int path_password_eye_mask_strike_through=0x7f0d0031;
-    public static final int path_password_eye_mask_visible=0x7f0d0032;
-    public static final int path_password_strike_through=0x7f0d0033;
-    public static final int search_menu_title=0x7f0d0034;
-    public static final int status_bar_notification_info_overflow=0x7f0d0035;
+    public static final int library_name=0x7f0d002e;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0d002f;
+    public static final int password_toggle_content_description=0x7f0d0030;
+    public static final int path_password_eye=0x7f0d0031;
+    public static final int path_password_eye_mask_strike_through=0x7f0d0032;
+    public static final int path_password_eye_mask_visible=0x7f0d0033;
+    public static final int path_password_strike_through=0x7f0d0034;
+    public static final int search_menu_title=0x7f0d0035;
+    public static final int status_bar_notification_info_overflow=0x7f0d0036;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;
@@ -17208,7 +17221,10 @@ public final class R {
      */
     public static final int ViewStubCompat_android_inflatedId=2;
   }
+  public static final class transition {
+    public static final int navigation_transition=0x7f100000;
+  }
   public static final class xml {
-    public static final int xamarin_essentials_fileprovider_file_paths=0x7f100000;
+    public static final int xamarin_essentials_fileprovider_file_paths=0x7f110000;
   }
 }
