@@ -6,9 +6,9 @@
        mc:Ignorable="d"
        xmlns:local="clr-namespace:BEONE.Views"
        Title="BEONE"
-       BackgroundColor="#007262"
-       FlyoutBackgroundImage="flybackroud.png"
-       FlyoutBackgroundImageAspect="AspectFill"
+       BackgroundColor="#1B9653"   
+       FlyoutBackgroundImage="backgroud.jpg"
+       FlyoutBackgroundImageAspect="Fill"
        x:Class="BEONE.AppShell">
 
     <!-- 

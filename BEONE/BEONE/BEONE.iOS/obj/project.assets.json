@@ -2,6 +2,42 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Com.Airbnb.iOS.Lottie/2.5.11": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.11",
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -388,6 +424,41 @@
           "lib/xamarinios10/Rg.Plugins.Popup.dll": {}
         }
       },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -482,6 +553,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "System.ComponentModel.Annotations/4.7.0": {
@@ -1133,15 +1213,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
+      "Xamarin.Plugin.SharedTransitions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.991250"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "BEONE/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.2",
+          "Microcharts": "0.7.1",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.7.0.968",
+          "Xamarin.Forms.PancakeView": "1.4.2",
+          "Xamarin.Plugin.SharedTransitions": "2.2.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -1153,6 +1262,42 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Com.Airbnb.iOS.Lottie/2.5.11": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.11",
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -1539,6 +1684,27 @@
           "lib/xamarinios10/Rg.Plugins.Popup.dll": {}
         }
       },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -1633,6 +1799,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "System.ComponentModel.Annotations/4.7.0": {
@@ -2220,15 +2395,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
+      "Xamarin.Plugin.SharedTransitions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.991250"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "BEONE/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.2",
+          "Microcharts": "0.7.1",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.7.0.968",
+          "Xamarin.Forms.PancakeView": "1.4.2",
+          "Xamarin.Plugin.SharedTransitions": "2.2.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -2240,6 +2444,42 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Com.Airbnb.iOS.Lottie/2.5.11": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.11",
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -2626,6 +2866,27 @@
           "lib/xamarinios10/Rg.Plugins.Popup.dll": {}
         }
       },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -2720,6 +2981,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "System.ComponentModel.Annotations/4.7.0": {
@@ -3307,15 +3577,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
+      "Xamarin.Plugin.SharedTransitions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.991250"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "BEONE/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.2",
+          "Microcharts": "0.7.1",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.7.0.968",
+          "Xamarin.Forms.PancakeView": "1.4.2",
+          "Xamarin.Plugin.SharedTransitions": "2.2.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -3327,6 +3626,42 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Com.Airbnb.iOS.Lottie/2.5.11": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "2.5.11",
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Lottie.Forms.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -3713,6 +4048,27 @@
           "lib/xamarinios10/Rg.Plugins.Popup.dll": {}
         }
       },
+      "SkiaSharp/1.59.1": {
+        "type": "package",
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -3807,6 +4163,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "System.ComponentModel.Annotations/4.7.0": {
@@ -4394,15 +4759,44 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
+      "Xamarin.Plugin.SharedTransitions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.3.0.991250"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.SharedTransitions.dll": {}
+        }
+      },
       "BEONE/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "3.1.2",
+          "Microcharts": "0.7.1",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.EntityFrameworkCore": "3.1.5",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.7.0.968",
+          "Xamarin.Forms.PancakeView": "1.4.2",
+          "Xamarin.Plugin.SharedTransitions": "2.2.0",
           "sqlite-net-pcl": "1.7.335"
         },
         "compile": {
@@ -4415,6 +4809,82 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.iOS.Lottie/2.5.11": {
+      "sha512": "Vj8qa31NG63umU+uVO5H+YV18j/ewKpoZEWQooBPwSP0hX+x1jEZEOxKszAKx7KdG2BWMlI1fedUYkpqGWuqaQ==",
+      "type": "package",
+      "path": "com.airbnb.ios.lottie/2.5.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "com.airbnb.ios.lottie.2.5.11.nupkg.sha512",
+        "com.airbnb.ios.lottie.nuspec",
+        "icon.png",
+        "lib/xamarinios10/Lottie.iOS.dll",
+        "lib/xamarinios10/Lottie.iOS.pdb",
+        "lib/xamarinios10/Lottie.iOS.xml",
+        "lib/xamarinmac20/Lottie.iOS.dll",
+        "lib/xamarinmac20/Lottie.iOS.pdb",
+        "lib/xamarinmac20/Lottie.iOS.xml",
+        "lib/xamarintvos10/Lottie.iOS.dll",
+        "lib/xamarintvos10/Lottie.iOS.pdb",
+        "lib/xamarintvos10/Lottie.iOS.xml",
+        "readme.txt"
+      ]
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/3.1.2": {
+      "sha512": "efkyiclLcfQ4x/y3YjB42CwmrHZ/ihtA6aeu8eauwXGLARRqgxPPHYz4vt6+6dKoMbeNXboNftLBoGA6PfpQeQ==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "com.airbnb.xamarin.forms.lottie.3.1.2.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "icon.png",
+        "lib/monoandroid10.0/Lottie.Forms.dll",
+        "lib/monoandroid10.0/Lottie.Forms.pdb",
+        "lib/monoandroid10.0/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/tizen40/Lottie.Forms.dll",
+        "lib/tizen40/Lottie.Forms.pdb",
+        "lib/tizen40/Lottie.Forms.xml",
+        "lib/uap10.0.17763/Lottie.Forms.dll",
+        "lib/uap10.0.17763/Lottie.Forms.pdb",
+        "lib/uap10.0.17763/Lottie.Forms.pri",
+        "lib/uap10.0.17763/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "lib/xamarinmac20/Lottie.Forms.dll",
+        "lib/xamarinmac20/Lottie.Forms.pdb",
+        "lib/xamarinmac20/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
+    "Microcharts/0.7.1": {
+      "sha512": "Py79bYXqvsqthZtk1ChdDhy/n4mb7T2CKjzTVU7ldj4dnjgFC2nbOJMGeAJkDk1lZPoQPSPx3obSq7S29Zrt8g==",
+      "type": "package",
+      "path": "microcharts/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Microcharts.Droid.dll",
+        "lib/MonoAndroid10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.iOS.dll",
+        "lib/netstandard1.4/Microcharts.dll",
+        "lib/uap/Microcharts.Uwp.dll",
+        "lib/uap/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.macOS.dll",
+        "microcharts.0.7.1.nupkg.sha512",
+        "microcharts.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
       "type": "package",
@@ -4981,6 +5451,67 @@
         "rg.plugins.popup.nuspec"
       ]
     },
+    "SkiaSharp/1.59.1": {
+      "sha512": "Le+YqP0aWwJ5ImHikWiLWOWjdH8oOV6F2D7fknzKp9ArzDIrtPASeiHpI1RgqQEK/GGvR56B2l5belsDzwK7uQ==",
+      "type": "package",
+      "path": "skiasharp/1.59.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/SkiaSharp.dll.config",
+        "build/net45/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/XamarinMac/SkiaSharp.dll",
+        "lib/XamarinMac/SkiaSharp.xml",
+        "lib/XamariniOS/SkiaSharp.dll",
+        "lib/XamariniOS/SkiaSharp.xml",
+        "lib/XamarintvOS/SkiaSharp.dll",
+        "lib/XamarintvOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.dll.config",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win7-x64/native/libSkiaSharp.dll",
+        "runtimes/win7-x86/native/libSkiaSharp.dll",
+        "skiasharp.1.59.1.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views/1.59.1.1": {
+      "sha512": "1MQmOh3OjdrCD87Ehdn986RoD43WEe8D9zzncCotuAckYHB++JmDv1poOhaiWtoYqCLXU6Vk5IcQR6+EgZ0ofQ==",
+      "type": "package",
+      "path": "skiasharp.views/1.59.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Mac.dll",
+        "lib/XamariniOS/SkiaSharp.Views.iOS.dll",
+        "lib/XamarintvOS/SkiaSharp.Views.tvOS.dll",
+        "lib/net45/SkiaSharp.Views.Desktop.dll",
+        "lib/net45/SkiaSharp.Views.WPF.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "skiasharp.views.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.7.335": {
       "sha512": "0A9YNPbp66aB+Sitxmh9lq1KDtD4+EBPfdtnYN8WenvQqh5dNgMxUV7kaEG6EXYTi4zBxcsDKpyYJzbViWJXtw==",
       "type": "package",
@@ -5277,6 +5808,65 @@
         "system.collections.immutable.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.ComponentModel/4.3.0": {
+      "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "type": "package",
+      "path": "system.componentmodel/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.3.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
       ]
     },
     "System.ComponentModel.Annotations/4.7.0": {
@@ -8532,6 +9122,44 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.PancakeView/1.4.2": {
+      "sha512": "0HGhwpvL8780UYmueP3Vazn6hmYB8GYEYyjkcPcW1qmnkYcfMc8h/9RZsDtUC7QFHikxCdxS29Aw8T0XrPETAQ==",
+      "type": "package",
+      "path": "xamarin.forms.pancakeview/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/Xamarin.Forms.PancakeView.dll",
+        "lib/monoandroid90/Xamarin.Forms.PancakeView.dll",
+        "lib/net461/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard1.0/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.PancakeView.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.PancakeView.pri",
+        "lib/xamarinios10/Xamarin.Forms.PancakeView.dll",
+        "xamarin.forms.pancakeview.1.4.2.nupkg.sha512",
+        "xamarin.forms.pancakeview.nuspec"
+      ]
+    },
+    "Xamarin.Plugin.SharedTransitions/2.2.0": {
+      "sha512": "vr+VGlwhhVhnDNCl3ORsA8rfUvbngjr0ObsIQrSsJwX7+WXoPh1WqR8TMBPn1y4eyHejt/s6VLpbcQn6Nneh7Q==",
+      "type": "package",
+      "path": "xamarin.plugin.sharedtransitions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.SharedTransitions.dll",
+        "lib/monoandroid10.0/Plugin.SharedTransitions.xml",
+        "lib/monoandroid90/Plugin.SharedTransitions.dll",
+        "lib/monoandroid90/Plugin.SharedTransitions.xml",
+        "lib/netstandard2.0/Plugin.SharedTransitions.dll",
+        "lib/netstandard2.0/Plugin.SharedTransitions.xml",
+        "lib/xamarinios10/Plugin.SharedTransitions.dll",
+        "lib/xamarinios10/Plugin.SharedTransitions.xml",
+        "xamarin.plugin.sharedtransitions.2.2.0.nupkg.sha512",
+        "xamarin.plugin.sharedtransitions.nuspec"
+      ]
+    },
     "BEONE/1.0.0": {
       "type": "project",
       "path": "../BEONE/BEONE.csproj",
@@ -8636,5 +9264,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

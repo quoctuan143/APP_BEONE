@@ -31,7 +31,7 @@ namespace BEONE.Views
         {
             var layout = (BindableObject)sender;
             var item = (Item)layout.BindingContext;
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)

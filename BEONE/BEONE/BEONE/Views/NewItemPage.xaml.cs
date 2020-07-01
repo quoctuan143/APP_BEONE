@@ -21,8 +21,8 @@ namespace BEONE.Views
 
             Item = new Item
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                Item_No = "Item name",
+                Name = "This is an item description."
             };
 
             BindingContext = this;
