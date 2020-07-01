@@ -46,13 +46,19 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
-            "Microsoft.AspNet.WebApi.Client": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.2.7, )"
+              "version": "[3.1.5, )"
             },
-            "Xamarin.Essentials": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[1.5.3.2, )"
+              "version": "[3.1.5, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -61,14 +67,6 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.968, )"
-            },
-            "Xamarin.Forms": {
-              "target": "Package",
-              "version": "[4.7.0.968, )"
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.7.335, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -121,11 +119,25 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
