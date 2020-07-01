@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="BEONE.Views.AboutPage"
-             xmlns:vm="clr-namespace:BEONE.ViewModels"
+             xmlns:vm="clr-namespace:BEONE.ViewModels"            
              Title="{Binding Title}">
     
     <ContentPage.BindingContext>

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj": {}
+    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj": {}
   },
   "projects": {
-    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj": {
+    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj",
+        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj",
         "projectName": "BEONE.iOS",
-        "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj",
-        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
-        "outputPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\obj\\",
+        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\BEONE.iOS.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
-                "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj"
+              "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+                "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj"
               }
             }
           }
@@ -42,9 +42,31 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -53,6 +75,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.968, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Xamarin.Plugin.SharedTransitions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -73,21 +103,20 @@
         }
       }
     },
-    "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
+    "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "projectUniqueName": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
         "projectName": "BEONE",
-        "projectPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
-        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
-        "outputPath": "D:\\SOURCE CODE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
+        "projectPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\BEONE.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "E:\\GITHUB\\BEONE\\APP_BEONE\\BEONE\\BEONE\\BEONE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -112,15 +141,37 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -129,6 +180,14 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.968, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Xamarin.Plugin.SharedTransitions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
